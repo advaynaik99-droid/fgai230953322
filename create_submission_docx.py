@@ -53,12 +53,12 @@ def create_submission_doc():
     table.autofit = False
 
     metadata = [
-        ("Student Name:", "[Enter Your Full Name Here]"),
-        ("Registration Number:", "[Enter Your Registration Number Here]"),
+        ("Student Name:", "Advay Naik"),
+        ("Registration Number:", "230953322"),
         ("Assignment Title:", "Foundations of Generative AI (ICT4403) - Assignment 2"),
         ("System Title:", "Comparative Word-Level Autoregressive Text Generation System"),
         ("Dataset Name & Link:", "The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle\nLink: https://www.gutenberg.org/ebooks/1661"),
-        ("GitHub Repository Link:", "https://github.com/[YourUsername]/ICT4403_Assignment2_TextGeneration")
+        ("GitHub Repository Link:", "https://github.com/advaynaik99-droid/fgai230953322")
     ]
 
     for idx, (label, val) in enumerate(metadata):
@@ -179,8 +179,10 @@ def create_submission_doc():
     for ib in inst_bullets:
         doc.add_paragraph(ib, style='List Bullet')
 
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "YourName_RegNum_FGAI_Assignment2.docx")
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AdvayNaik_230953322_FGAI_Assignment2.docx")
     doc.save(output_path)
+    output_path2 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "YourName_RegNum_FGAI_Assignment2.docx")
+    doc.save(output_path2)
     print(f"Updated Word submission document: {output_path}")
 
 if __name__ == "__main__":
