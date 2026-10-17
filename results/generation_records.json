@@ -1,0 +1,322 @@
+{
+  "Simple_RNN": {
+    "sherlock holmes was sitting in his chair": {
+      "0.3": {
+        "text": "Sherlock holmes was sitting in his chair. \u201cit is a little man, that you had seen the ventilator, and i stood, sir, you can imagine to the cab the morning of the",
+        "diversity": {
+          "distinct_1": 0.875,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.125
+        }
+      },
+      "0.7": {
+        "text": "Sherlock holmes was sitting in his chair. He son, \u201d said holmes that possible had seen the carriage which led the same of the morning, and of tobacco to go. I must confess",
+        "diversity": {
+          "distinct_1": 0.8788,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1212
+        }
+      },
+      "1.2": {
+        "text": "Sherlock holmes was sitting in his chair. Talking son as set back us that into the boards where only which led cases us, more refused for me of heart any part seeing the latter band",
+        "diversity": {
+          "distinct_1": 0.9714,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.0286
+        }
+      }
+    },
+    "it was a cold and foggy morning in london": {
+      "0.3": {
+        "text": "It was a cold and foggy morning in london. \u201d \u201cwhere is a little man, but the name is a man, \u201d said holmes, \u201cyour course, sir, \u201d said he, \u201cbut i",
+        "diversity": {
+          "distinct_1": 0.7812,
+          "distinct_2": 0.9355,
+          "repetition_ratio": 0.2188
+        }
+      },
+      "0.7": {
+        "text": "It was a cold and foggy morning in london. He son to set back to that into the boards, \u201d said holmes, \u2018i have not very set forth of it, \u201d said holmes; \u201ci",
+        "diversity": {
+          "distinct_1": 0.8824,
+          "distinct_2": 0.9697,
+          "repetition_ratio": 0.1176
+        }
+      },
+      "1.2": {
+        "text": "It was a cold and foggy morning in london. Talking son. \u201d \u201cwhere want that into the boards where only which led cases us, more refused for me of heart any part seeing the latter band",
+        "diversity": {
+          "distinct_1": 0.9722,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.0278
+        }
+      }
+    },
+    "the mystery of the stolen document had": {
+      "0.3": {
+        "text": "The mystery of the stolen document had been drawn, and i found that that you have seen the ventilator, and i have not know what you are all the way. \u201d \u201cand you will",
+        "diversity": {
+          "distinct_1": 0.7353,
+          "distinct_2": 0.9697,
+          "repetition_ratio": 0.2647
+        }
+      },
+      "0.7": {
+        "text": "The mystery of the stolen document had set forth. \u201d \u201cand you want that you had seen the ventilator which led the same of the morning, and of tobacco to go. I must confess",
+        "diversity": {
+          "distinct_1": 0.7647,
+          "distinct_2": 0.9697,
+          "repetition_ratio": 0.2353
+        }
+      },
+      "1.2": {
+        "text": "The mystery of the stolen document had walked talking son. \u201d \u201cwhere delicate that into the boards where only which led cases us, more refused for me of heart any part seeing the latter band",
+        "diversity": {
+          "distinct_1": 0.8857,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1143
+        }
+      }
+    }
+  },
+  "Bidirectional_RNN": {
+    "sherlock holmes was sitting in his chair": {
+      "0.3": {
+        "text": "Sherlock holmes was sitting in his chair and a large blue as i should be a good deal, and the first, and the first, and a few days of his pocket and the most",
+        "diversity": {
+          "distinct_1": 0.7059,
+          "distinct_2": 0.8485,
+          "repetition_ratio": 0.2941
+        }
+      },
+      "0.7": {
+        "text": "Sherlock holmes was sitting in his chair. He son a nice man in that you must be either in which led cases in the blue which may stand it at any other. And the splash",
+        "diversity": {
+          "distinct_1": 0.8571,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1429
+        }
+      },
+      "1.2": {
+        "text": "Sherlock holmes was sitting in his chair. He son a capital back yard that into the boards either red which led cases to shake, refused for me until it came had gone to the police",
+        "diversity": {
+          "distinct_1": 0.9429,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.0571
+        }
+      }
+    },
+    "it was a cold and foggy morning in london": {
+      "0.3": {
+        "text": "It was a cold and foggy morning in london. \u201d \u201cwhat is a very serious that you must be a thoroughly of the most pleasant of the hall. \u201d \u201cwhat! \u201d i will not that you",
+        "diversity": {
+          "distinct_1": 0.7778,
+          "distinct_2": 0.9429,
+          "repetition_ratio": 0.2222
+        }
+      },
+      "0.7": {
+        "text": "It was a cold and foggy morning in london. He son a capital. \u201d that is not hear, \u201d remarked, yes, being the lady is not of his hands. \u201d \u201cwell, yes",
+        "diversity": {
+          "distinct_1": 0.8438,
+          "distinct_2": 0.9677,
+          "repetition_ratio": 0.1562
+        }
+      },
+      "1.2": {
+        "text": "It was a cold and foggy morning in london. He son ten through back to that into the boards either red which led cases to shake, refused for me until it came had gone to the police",
+        "diversity": {
+          "distinct_1": 0.8919,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1081
+        }
+      }
+    },
+    "the mystery of the stolen document had": {
+      "0.3": {
+        "text": "The mystery of the stolen document had been as to discuss, and i will not come to the police, and the first, and the last of his hands, and the first volume,",
+        "diversity": {
+          "distinct_1": 0.6875,
+          "distinct_2": 0.9355,
+          "repetition_ratio": 0.3125
+        }
+      },
+      "0.7": {
+        "text": "The mystery of the stolen document had a few minutes. \u201d \u201cwhat will that you must be either in which led cases in the blue which may stand it at any other. And the splash",
+        "diversity": {
+          "distinct_1": 0.8571,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1429
+        }
+      },
+      "1.2": {
+        "text": "The mystery of the stolen document had walked at son. \u201d \u201cit seems that into the boards either red which led cases to shake, refused for me until it came had gone to the police",
+        "diversity": {
+          "distinct_1": 0.8571,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1429
+        }
+      }
+    }
+  },
+  "LSTM": {
+    "sherlock holmes was sitting in his chair": {
+      "0.3": {
+        "text": "Sherlock holmes was sitting in his chair. He had been fastened, and that the door was a little one, and a little more of the most extraordinary which i had gone to the floor",
+        "diversity": {
+          "distinct_1": 0.7941,
+          "distinct_2": 0.9697,
+          "repetition_ratio": 0.2059
+        }
+      },
+      "0.7": {
+        "text": "Sherlock holmes was sitting in his chair. He son have been back to that into the boards, and we have been a little more than for me of it. \u201d \u201ci am afraid that",
+        "diversity": {
+          "distinct_1": 0.9118,
+          "distinct_2": 0.9697,
+          "repetition_ratio": 0.0882
+        }
+      },
+      "1.2": {
+        "text": "Sherlock holmes was sitting in his chair. He son have set back to that into the boards sooner. \u201d led cases on earth higher notes for me until it any go between shoes the band",
+        "diversity": {
+          "distinct_1": 0.9714,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.0286
+        }
+      }
+    },
+    "it was a cold and foggy morning in london": {
+      "0.3": {
+        "text": "It was a cold and foggy morning in london. It was a very strongest one which was a little more than which led into the room. \u201d \u201ci am sure, \u201d said holmes, laughing.",
+        "diversity": {
+          "distinct_1": 0.7941,
+          "distinct_2": 0.9091,
+          "repetition_ratio": 0.2059
+        }
+      },
+      "0.7": {
+        "text": "It was a cold and foggy morning in london. He son have been back to that into the boards, and we have been a little more than for me of it. \u201d \u201ci am afraid that",
+        "diversity": {
+          "distinct_1": 0.8611,
+          "distinct_2": 0.9714,
+          "repetition_ratio": 0.1389
+        }
+      },
+      "1.2": {
+        "text": "It was a cold and foggy morning in london. He son have set back to that into the boards sooner. \u201d led cases on earth higher notes for me until it any go between shoes the band",
+        "diversity": {
+          "distinct_1": 0.9459,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.0541
+        }
+      }
+    },
+    "the mystery of the stolen document had": {
+      "0.3": {
+        "text": "The mystery of the stolen document had a very serious man. I had no difficulty of the most man who led into the room. \u201d \u201ci am sure, \u201d said holmes, laughing.",
+        "diversity": {
+          "distinct_1": 0.8125,
+          "distinct_2": 0.9677,
+          "repetition_ratio": 0.1875
+        }
+      },
+      "0.7": {
+        "text": "The mystery of the stolen document had which he had been fastened back to that into the boards which had been led for a little more marriage may stand it at him. He had the band",
+        "diversity": {
+          "distinct_1": 0.75,
+          "distinct_2": 0.9429,
+          "repetition_ratio": 0.25
+        }
+      },
+      "1.2": {
+        "text": "The mystery of the stolen document had which he son have set back to that into the boards sooner. \u201d led cases on earth higher notes for me until it any go between shoes the band",
+        "diversity": {
+          "distinct_1": 0.9167,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.0833
+        }
+      }
+    }
+  },
+  "GRU": {
+    "sherlock holmes was sitting in his chair": {
+      "0.3": {
+        "text": "Sherlock holmes was sitting in his chair and lay. \u201ci have been a little to the police, and then, as to the police, and a man who had been left us in the",
+        "diversity": {
+          "distinct_1": 0.7273,
+          "distinct_2": 0.9062,
+          "repetition_ratio": 0.2727
+        }
+      },
+      "0.7": {
+        "text": "Sherlock holmes was sitting in his chair. He son as he could not that into the boards, and we have been a little more box for me of it. I didn\u2019t the window,",
+        "diversity": {
+          "distinct_1": 0.9394,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.0606
+        }
+      },
+      "1.2": {
+        "text": "Sherlock holmes was sitting in his chair. He son as set back us that into the boards where had us led cases to the boscombe box for music of it any had seeing shoes to keep",
+        "diversity": {
+          "distinct_1": 0.8889,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1111
+        }
+      }
+    },
+    "it was a cold and foggy morning in london": {
+      "0.3": {
+        "text": "It was a cold and foggy morning in london. \u201d \u201cand i could see that i could see that i could not think that i could not think that i could not think that i could not tell",
+        "diversity": {
+          "distinct_1": 0.4737,
+          "distinct_2": 0.5135,
+          "repetition_ratio": 0.5263
+        }
+      },
+      "0.7": {
+        "text": "It was a cold and foggy morning in london. He son a few words of that into the boards, and we have been a little more than for me of it. I didn\u2019t the window,",
+        "diversity": {
+          "distinct_1": 0.8571,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1429
+        }
+      },
+      "1.2": {
+        "text": "It was a cold and foggy morning in london. He son as set back to that into the boards where had us led cases to the boscombe box for me of it any had seeing shoes to keep",
+        "diversity": {
+          "distinct_1": 0.8684,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1316
+        }
+      }
+    },
+    "the mystery of the stolen document had": {
+      "0.3": {
+        "text": "The mystery of the stolen document had been a little problem of the morning. \u201d \u201cand i could see that i could not think that i could not tell it all the matter. \u201d \u201ci",
+        "diversity": {
+          "distinct_1": 0.6857,
+          "distinct_2": 0.8529,
+          "repetition_ratio": 0.3143
+        }
+      },
+      "0.7": {
+        "text": "The mystery of the stolen document had a few son. \u201d \u201cit is that i had seen either. \u201d led cases. \u201d \u201cthen i may stand of it! \u201d he continued the old",
+        "diversity": {
+          "distinct_1": 0.7576,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.2424
+        }
+      },
+      "1.2": {
+        "text": "The mystery of the stolen document had lying talking son. \u201d \u201cshe holmes that into the boards where had us led for us, and then set every of heart him had seeing shoes to keep",
+        "diversity": {
+          "distinct_1": 0.8571,
+          "distinct_2": 1.0,
+          "repetition_ratio": 0.1429
+        }
+      }
+    }
+  }
+}

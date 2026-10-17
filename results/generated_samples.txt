@@ -1,0 +1,192 @@
+================================================================================
+ICT4403 ASSIGNMENT 2: AUTOREGRESSIVE TEXT GENERATION SAMPLES
+================================================================================
+
+
+######################################################################
+MODEL: Simple RNN
+######################################################################
+
+Seed Prompt: "sherlock holmes was sitting in his chair"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  Sherlock holmes was sitting in his chair. “it is a little man, that you had seen the ventilator, and i stood, sir, you can imagine to the cab the morning of the
+  Metrics: Distinct-1=0.875, Distinct-2=1.0, Repetition=0.125
+
+  [T = 0.7 (Medium (Balanced))]
+  Sherlock holmes was sitting in his chair. He son, ” said holmes that possible had seen the carriage which led the same of the morning, and of tobacco to go. I must confess
+  Metrics: Distinct-1=0.8788, Distinct-2=1.0, Repetition=0.1212
+
+  [T = 1.2 (High (Creative/Diverse))]
+  Sherlock holmes was sitting in his chair. Talking son as set back us that into the boards where only which led cases us, more refused for me of heart any part seeing the latter band
+  Metrics: Distinct-1=0.9714, Distinct-2=1.0, Repetition=0.0286
+
+Seed Prompt: "it was a cold and foggy morning in london"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  It was a cold and foggy morning in london. ” “where is a little man, but the name is a man, ” said holmes, “your course, sir, ” said he, “but i
+  Metrics: Distinct-1=0.7812, Distinct-2=0.9355, Repetition=0.2188
+
+  [T = 0.7 (Medium (Balanced))]
+  It was a cold and foggy morning in london. He son to set back to that into the boards, ” said holmes, ‘i have not very set forth of it, ” said holmes; “i
+  Metrics: Distinct-1=0.8824, Distinct-2=0.9697, Repetition=0.1176
+
+  [T = 1.2 (High (Creative/Diverse))]
+  It was a cold and foggy morning in london. Talking son. ” “where want that into the boards where only which led cases us, more refused for me of heart any part seeing the latter band
+  Metrics: Distinct-1=0.9722, Distinct-2=1.0, Repetition=0.0278
+
+Seed Prompt: "the mystery of the stolen document had"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  The mystery of the stolen document had been drawn, and i found that that you have seen the ventilator, and i have not know what you are all the way. ” “and you will
+  Metrics: Distinct-1=0.7353, Distinct-2=0.9697, Repetition=0.2647
+
+  [T = 0.7 (Medium (Balanced))]
+  The mystery of the stolen document had set forth. ” “and you want that you had seen the ventilator which led the same of the morning, and of tobacco to go. I must confess
+  Metrics: Distinct-1=0.7647, Distinct-2=0.9697, Repetition=0.2353
+
+  [T = 1.2 (High (Creative/Diverse))]
+  The mystery of the stolen document had walked talking son. ” “where delicate that into the boards where only which led cases us, more refused for me of heart any part seeing the latter band
+  Metrics: Distinct-1=0.8857, Distinct-2=1.0, Repetition=0.1143
+
+
+######################################################################
+MODEL: Bidirectional RNN
+######################################################################
+
+Seed Prompt: "sherlock holmes was sitting in his chair"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  Sherlock holmes was sitting in his chair and a large blue as i should be a good deal, and the first, and the first, and a few days of his pocket and the most
+  Metrics: Distinct-1=0.7059, Distinct-2=0.8485, Repetition=0.2941
+
+  [T = 0.7 (Medium (Balanced))]
+  Sherlock holmes was sitting in his chair. He son a nice man in that you must be either in which led cases in the blue which may stand it at any other. And the splash
+  Metrics: Distinct-1=0.8571, Distinct-2=1.0, Repetition=0.1429
+
+  [T = 1.2 (High (Creative/Diverse))]
+  Sherlock holmes was sitting in his chair. He son a capital back yard that into the boards either red which led cases to shake, refused for me until it came had gone to the police
+  Metrics: Distinct-1=0.9429, Distinct-2=1.0, Repetition=0.0571
+
+Seed Prompt: "it was a cold and foggy morning in london"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  It was a cold and foggy morning in london. ” “what is a very serious that you must be a thoroughly of the most pleasant of the hall. ” “what! ” i will not that you
+  Metrics: Distinct-1=0.7778, Distinct-2=0.9429, Repetition=0.2222
+
+  [T = 0.7 (Medium (Balanced))]
+  It was a cold and foggy morning in london. He son a capital. ” that is not hear, ” remarked, yes, being the lady is not of his hands. ” “well, yes
+  Metrics: Distinct-1=0.8438, Distinct-2=0.9677, Repetition=0.1562
+
+  [T = 1.2 (High (Creative/Diverse))]
+  It was a cold and foggy morning in london. He son ten through back to that into the boards either red which led cases to shake, refused for me until it came had gone to the police
+  Metrics: Distinct-1=0.8919, Distinct-2=1.0, Repetition=0.1081
+
+Seed Prompt: "the mystery of the stolen document had"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  The mystery of the stolen document had been as to discuss, and i will not come to the police, and the first, and the last of his hands, and the first volume,
+  Metrics: Distinct-1=0.6875, Distinct-2=0.9355, Repetition=0.3125
+
+  [T = 0.7 (Medium (Balanced))]
+  The mystery of the stolen document had a few minutes. ” “what will that you must be either in which led cases in the blue which may stand it at any other. And the splash
+  Metrics: Distinct-1=0.8571, Distinct-2=1.0, Repetition=0.1429
+
+  [T = 1.2 (High (Creative/Diverse))]
+  The mystery of the stolen document had walked at son. ” “it seems that into the boards either red which led cases to shake, refused for me until it came had gone to the police
+  Metrics: Distinct-1=0.8571, Distinct-2=1.0, Repetition=0.1429
+
+
+######################################################################
+MODEL: LSTM
+######################################################################
+
+Seed Prompt: "sherlock holmes was sitting in his chair"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  Sherlock holmes was sitting in his chair. He had been fastened, and that the door was a little one, and a little more of the most extraordinary which i had gone to the floor
+  Metrics: Distinct-1=0.7941, Distinct-2=0.9697, Repetition=0.2059
+
+  [T = 0.7 (Medium (Balanced))]
+  Sherlock holmes was sitting in his chair. He son have been back to that into the boards, and we have been a little more than for me of it. ” “i am afraid that
+  Metrics: Distinct-1=0.9118, Distinct-2=0.9697, Repetition=0.0882
+
+  [T = 1.2 (High (Creative/Diverse))]
+  Sherlock holmes was sitting in his chair. He son have set back to that into the boards sooner. ” led cases on earth higher notes for me until it any go between shoes the band
+  Metrics: Distinct-1=0.9714, Distinct-2=1.0, Repetition=0.0286
+
+Seed Prompt: "it was a cold and foggy morning in london"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  It was a cold and foggy morning in london. It was a very strongest one which was a little more than which led into the room. ” “i am sure, ” said holmes, laughing.
+  Metrics: Distinct-1=0.7941, Distinct-2=0.9091, Repetition=0.2059
+
+  [T = 0.7 (Medium (Balanced))]
+  It was a cold and foggy morning in london. He son have been back to that into the boards, and we have been a little more than for me of it. ” “i am afraid that
+  Metrics: Distinct-1=0.8611, Distinct-2=0.9714, Repetition=0.1389
+
+  [T = 1.2 (High (Creative/Diverse))]
+  It was a cold and foggy morning in london. He son have set back to that into the boards sooner. ” led cases on earth higher notes for me until it any go between shoes the band
+  Metrics: Distinct-1=0.9459, Distinct-2=1.0, Repetition=0.0541
+
+Seed Prompt: "the mystery of the stolen document had"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  The mystery of the stolen document had a very serious man. I had no difficulty of the most man who led into the room. ” “i am sure, ” said holmes, laughing.
+  Metrics: Distinct-1=0.8125, Distinct-2=0.9677, Repetition=0.1875
+
+  [T = 0.7 (Medium (Balanced))]
+  The mystery of the stolen document had which he had been fastened back to that into the boards which had been led for a little more marriage may stand it at him. He had the band
+  Metrics: Distinct-1=0.75, Distinct-2=0.9429, Repetition=0.25
+
+  [T = 1.2 (High (Creative/Diverse))]
+  The mystery of the stolen document had which he son have set back to that into the boards sooner. ” led cases on earth higher notes for me until it any go between shoes the band
+  Metrics: Distinct-1=0.9167, Distinct-2=1.0, Repetition=0.0833
+
+
+######################################################################
+MODEL: GRU
+######################################################################
+
+Seed Prompt: "sherlock holmes was sitting in his chair"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  Sherlock holmes was sitting in his chair and lay. “i have been a little to the police, and then, as to the police, and a man who had been left us in the
+  Metrics: Distinct-1=0.7273, Distinct-2=0.9062, Repetition=0.2727
+
+  [T = 0.7 (Medium (Balanced))]
+  Sherlock holmes was sitting in his chair. He son as he could not that into the boards, and we have been a little more box for me of it. I didn’t the window,
+  Metrics: Distinct-1=0.9394, Distinct-2=1.0, Repetition=0.0606
+
+  [T = 1.2 (High (Creative/Diverse))]
+  Sherlock holmes was sitting in his chair. He son as set back us that into the boards where had us led cases to the boscombe box for music of it any had seeing shoes to keep
+  Metrics: Distinct-1=0.8889, Distinct-2=1.0, Repetition=0.1111
+
+Seed Prompt: "it was a cold and foggy morning in london"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  It was a cold and foggy morning in london. ” “and i could see that i could see that i could not think that i could not think that i could not think that i could not tell
+  Metrics: Distinct-1=0.4737, Distinct-2=0.5135, Repetition=0.5263
+
+  [T = 0.7 (Medium (Balanced))]
+  It was a cold and foggy morning in london. He son a few words of that into the boards, and we have been a little more than for me of it. I didn’t the window,
+  Metrics: Distinct-1=0.8571, Distinct-2=1.0, Repetition=0.1429
+
+  [T = 1.2 (High (Creative/Diverse))]
+  It was a cold and foggy morning in london. He son as set back to that into the boards where had us led cases to the boscombe box for me of it any had seeing shoes to keep
+  Metrics: Distinct-1=0.8684, Distinct-2=1.0, Repetition=0.1316
+
+Seed Prompt: "the mystery of the stolen document had"
+--------------------------------------------------
+  [T = 0.3 (Low (Conservative))]
+  The mystery of the stolen document had been a little problem of the morning. ” “and i could see that i could not think that i could not tell it all the matter. ” “i
+  Metrics: Distinct-1=0.6857, Distinct-2=0.8529, Repetition=0.3143
+
+  [T = 0.7 (Medium (Balanced))]
+  The mystery of the stolen document had a few son. ” “it is that i had seen either. ” led cases. ” “then i may stand of it! ” he continued the old
+  Metrics: Distinct-1=0.7576, Distinct-2=1.0, Repetition=0.2424
+
+  [T = 1.2 (High (Creative/Diverse))]
+  The mystery of the stolen document had lying talking son. ” “she holmes that into the boards where had us led for us, and then set every of heart him had seeing shoes to keep
+  Metrics: Distinct-1=0.8571, Distinct-2=1.0, Repetition=0.1429
+
